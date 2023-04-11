@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GET CARS.COM</title>
+<style type="text/css">
+	body{
+				margin: 0;
+				padding: 0;
+				left: 0;
+				right: 0;
+				float: left;
+				font-family: arial;
+				}
+
+.nav{
+				left: 0;
+				right: 0;
+				width: 100%;
+				height: 49px;
+				background-color: #262626;
+				}
+.nav a{
+				float: left;
+				text-decoration: none;
+				color: #fff;
+				padding: 14px 26px;
+				font-size: 17px;
+				transition: 0.6s all;
+				}
+.nav a:hover{
+				background-color: dodgerblue;
+				}
+.nav .search{
+				float: right;
+				}
+.nav input[type=text]{
+				padding: 6px;
+				margin-top: 8px;
+				border: none;
+				font-size: 17px;
+				}
+.nav .search button {
+				float: right;
+				padding: 6px;
+				margin-top: 8px;
+				font-size: 17px;
+				margin-right: 16px;
+				border: none;
+				background-color: #fff;
+				
+				cursor: pointer;
+				transition: 0.6s all;
+				}
+.nav .search button:hover{
+				background-color: dodgerblue;
+				color: #fff;
+				}				
+
+					
+.back{
+				position: absolute;
+				width: 100%;
+				left: 0px;
+				height: 100%;
+				animation: animate 25s ease-in-out infinite;
+				position: absolute;
+				background-size: cover;
+				}						
+@keyframes animate{
+				0%,100%{
+								background-image: url(gallery/61.jpg);
+								width: 100%;
+								height: auto;
+								}
+						25%{
+								background-image: url(gallery/62.jpg);
+								width: 100%;
+								height: auto;
+								
+								}
+				
+								50%{
+								background-image: url(gallery/63.jpg);
+								width: 100%;
+								height: 100%;
+								
+								}
+								
+75%{
+								background-image: url(gallery/64.jpg);
+								width: 100%;
+								height: 100%;
+								
+								}
+									
+								
+		}											
+			 													
+
+</style>
+</head>
+<body bgcolor=silver>
+<div class="back">
+<div class="nav">
+<a href="home.html">Home</a>
+<a href="company.html">Company</a>
+<a href="gallery/gallery.html">Gallery</a>
+<a href="contact/index.html">Contact</a>
+<a href="#">About</a>
+<div class="search">
+<form>
+<input type="text" placeholder="Search.....">
+<button>Search</button>
+</form>
+</div>
+</div>
+</div>
+</body>
+</html>
+ 
+
+
+
+
