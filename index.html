@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>get cars.com</title>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GET CARS.COM</title>
 <style type="text/css">
-body{
+	body{
 				margin: 0;
 				padding: 0;
 				left: 0;
+				right: 0;
 				float: left;
 				font-family: arial;
 				}
@@ -39,7 +42,7 @@ body{
 				font-size: 17px;
 				}
 .nav .search button {
-	float: right;
+				float: right;
 				padding: 6px;
 				margin-top: 8px;
 				font-size: 17px;
@@ -55,60 +58,57 @@ body{
 				color: #fff;
 				}				
 
-#slider{
-				overflow: hidden;
-				}
-#slider figure{
-				position: relative;
-				width: 500%;
-				margin: 0;
-				left: 0;
-				animation: 15s slider infinite;
-				}			
-#slider figure img{
-				width: 20%;
-				height: 40%;
-				float: left;
-				}			
-@keyframes slider{
-				0%{
-								left: 0;
-								}
-				20%{
-								left: 0;
-								}		
-				25%{
-								left: -100%;
-								}		
-				45%{
-								left: -100%;
-								}			
-				50%{
-								left: -200%;
-								}	
-				70%{
-								left: -200%;
-								}			
-				75%{
-								left: -300%;
-								}			
-				95%{
-								left: -300%;
-								}				
-				100%{
-								left: -400%;
-								}														
+					
+.back{
+				position: absolute;
+				width: 100%;
+				left: 0px;
+				height: 100%;
+				animation: animate 25s ease-in-out infinite;
+				position: absolute;
+				background-size: cover;
 				}						
+@keyframes animate{
+				0%,100%{
+								background-image: url(gallery/61.jpg);
+								width: 100%;
+								height: 100%;
+								}
+						25%{
+								background-image: url(gallery/62.jpg);
+								width: 100%;
+								height: 100%;
+								
+								}
+				
+								50%{
+								background-image: url(gallery/63.jpg);
+								width: 100%;
+								height: 100%;
+								
+								}
+								
+75%{
+								background-image: url(gallery/64.jpg);
+								width: 100%;
+								height: 100%;
+								
+								}
+									
+								
+		}											
+			 													
+
 </style>
 </head>
-	<body bgcolor=silver>
+<body bgcolor=silver>
 <div class="back">
 <div class="nav">
 <a href="./index.html">Home</a>
+<a href="./company.html">Company</a>
 <a href="./gallery/gallery.html">Gallery</a>
 <a href="./contact/Index.html">Contact</a>
-<a href="./feedback.html">Feedback</a>
-<a href="./feedback.html">About</a>
+<a href="#">About</a>
 <div class="search">
 <form>
 <input type="text" placeholder="Search.....">
@@ -116,15 +116,11 @@ body{
 </form>
 </div>
 </div>
-<div id="slider">
-<figure>
-<img src="gallery/51.jpg">
-<img src="gallery/52.jpg">
-<img src="gallery/53.jpg">
-<img src="gallery/54.jpg">
-<img src="gallery/55.jpg">
-<img src="gallery/56.jpg">
-</figure>
 </div>
 </body>
 </html>
+ 
+
+
+
+
